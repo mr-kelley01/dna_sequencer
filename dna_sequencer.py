@@ -47,7 +47,7 @@ def copy_DNA_string(base_sequence0):
         return base_sequence1
 
 
-print(gen_DNA_string(num_requested_bases))
+#print(gen_DNA_string(num_requested_bases))
 print(base_sequence0.find("TAC")) # Find the first codon to start transcription.  Returns the index of the start of the sub-string. -1 indicates no match. 
 print("\n")
 print(base_sequence1)
